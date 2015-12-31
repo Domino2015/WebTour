@@ -1,0 +1,317 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: 'Microsoft YaHei',Arial, 'Hiragino Sans GB', 'WenQuanYi Micro Hei', sans-serif;
+}
+ul,
+li
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+}
+body
+{
+    width: 1982px;
+
+    background-image: url('../img/12.png');
+    background-repeat: no-repeat;
+}
+.heading
+{
+    width: 1400px;
+    height: 80px;
+    margin: 0 auto;
+}
+.heading-logo
+{
+    font-size: 45px;
+    font-weight: bold;
+
+    float: left;
+
+    width: 380px;
+    height: 74px;
+    margin-top: 10px;
+}
+.heading-btn
+{
+    float: left;
+
+    width: auto;
+    height: auto;
+    margin-right: 4px;
+}
+.heading-btn a
+{
+    font-size: 18px;
+
+    display: block;
+
+    width: 90px;
+    height: 40px;
+    margin-top: 23px;
+    padding-top: 10px;
+
+    text-align: center;
+
+    color: white;
+    border-radius: 5px;
+    background-color: #111;
+}
+.heading-btn a:hover
+{
+    background-color: #8f3232;
+}
+.heading-icon
+{
+    font-size: 20px;
+
+    float: left;
+
+    width: 270px;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 120px;
+
+    color: #000;
+}
+.heading-icon a i
+{
+    font-size: 35px;
+
+    color: black;
+}
+.heading-icon a i:hover
+{
+    color: #8f3232;
+}
+
+
+
+
+#menu
+{
+    position: relative;
+    z-index: 999;
+
+    width: 960px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 291px;
+
+    background-image: url('../img/15.png');
+}
+#home
+{
+    margin-left: 35px;
+}
+#menu ul
+{
+    float: left;
+
+    width: 1200px;
+    margin-top: 5px;
+    padding: 0;
+
+    list-style: none;
+}
+#menu ul li
+{
+    line-height: 34px;
+
+    float: left;
+
+    width: 135px;
+    height: 34px;
+    margin-right: 15px;
+
+    text-align: center;
+
+    border-bottom: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #111;
+}
+#menu ul li a
+{
+    display: block;
+
+    width: 135px;
+    height: 34px;
+
+    color: #eee;
+    border-radius: 5px;
+}
+#menu ul li a:hover
+{
+    border-radius: 5px;
+    background-color: #8f3232;
+}
+
+
+#menu ul li ul li
+{
+    float: none;
+
+    width: 135px;
+    margin: 0;
+
+    border-radius: 5px;
+}
+#menu ul li ul
+{
+    display: none;
+
+    width: 135px;
+    margin-top: 0;
+}
+#menu ul li.listshow ul
+{
+    display: block;
+}
+#menu ul li ul li a
+{
+    width: 135px;
+
+    border-radius: 5px;
+    background: none;  /*现在把下拉列表的背景图片去掉*/
+}
+#menu ul li ul li a:hover
+{
+    color: #000;
+    background: #eee;
+}
+
+.img
+{
+    position: relative;
+    z-index: 1;
+
+    width: 960px;
+    margin-left: 291px;
+}
+.circle img
+{
+    width: 80px;
+    height: 80px;
+
+    border-radius: 45px;
+}
+#img1
+{
+    position: relative;
+    z-index: 2;
+    right: 40px;
+    bottom: 280px;
+
+    float: left;
+}
+#img2
+{
+    position: relative;
+    z-index: 2;
+    bottom: 280px;
+    left: 40px;
+
+    float: right;
+}
+.background1
+{
+    position: absolute;
+    z-index: 2;
+    top: 430px;
+    right: 455px;
+
+    width: 737px;
+    height: 183px;
+
+    opacity: .5;
+}
+.text
+{
+    font-size: 16px;
+
+    position: absolute;
+    z-index: 10;
+    top: 280px;
+
+    width: 610px;
+    height: 120px;
+    padding: 30px;
+}
+.text span
+{
+    font-size: 29px;
+    line-height: 1.5;
+}
+.word
+{
+    position: relative;
+    z-index: 3;
+
+    width: 960px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 291px;
+
+    border-radius: 5px;
+    background-color: #8f3232;
+}
+.word1
+{
+    font-size: 14px;
+    line-height: 2;
+
+    position: relative;
+    top: 5px;
+    right: 40px;
+
+    float: left;
+
+    width: 690px;
+    height: 60px;
+    margin-top: 20px;
+
+    color: white;
+}
+.word-yy
+{
+    position: relative;
+    bottom: 93px;
+
+    width: 960px;
+    height: 36px;
+    margin-left: 543px;
+
+    background-repeat: no-repeat;
+}
+.word-btn
+{
+    position: relative;
+    bottom: 40px;
+
+    float: left;
+
+    width: 180px;
+    height: 34px;
+    padding-top: 5px;
+
+    text-align: center;
+
+    border-radius: 5px;
+    background-color: #490505;
+}
+.word-btn a
+{
+    color: white;
+}
+.word-btn a:hover
+{
+    color: #8f3232;
+}
